@@ -1,0 +1,14 @@
+# /etc/default/firewall
+
+# Démarrer le pare-feu : yes/no
+FW_ACTIVE=yes
+
+# Démarrer le partage de connexion : yes/no
+FW_MASQ=yes
+
+# Internet
+IFACE_INET=wlan0
+
+# OpenVPN
+IFACE_VPN=tun0
+IFACE_VPN_IP=10.8.0.0/24
